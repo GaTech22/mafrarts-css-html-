@@ -1,6 +1,129 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Outfit:wght@100..900&display=swap'); */
 
 :root {
+    
+    /* --verde-acqua1: #1F4643;
+    --verde-acqua2: #2A5A56;
+    --verde-acqua3: #366E6A;
+    --verde-acqua4: #42837D;
+    --verde-acqua5: #509892;
+    --verde-acqua6: #60ADA6;
+    --verde-acqua7: #73C2BB;
+    --verde-acqua8: #8BD7CF;
+    --verde-acqua9: #AFE9E3;
+    --verde-acqua10: #E0F6F4;
+    
+    --rosso-1: #6C1213;
+    --rosso-2: #89181B;
+    --rosso-3: #A71C23;
+    --rosso-4: #C6212C;
+    --rosso-5: #E42836;
+    --rosso-6: #F9454B;
+    --rosso-7: #FD706E;
+    --rosso-8: #FE938F;
+    --rosso-9: #FFB3AF;
+    --rosso-10: #FFD0CD;
+    
+    --arancione-1: #F18133;
+    --arancione-2: #F58F3B;
+    --arancione-3: #F89D49;
+    --arancione-4: #FAAB58;
+    --arancione-5: #FCB968;
+    --arancione-6: #FDC67A;
+    --arancione-7: #FED38E;
+    --arancione-8: #FEE0A5;
+    --arancione-9: #FEECBE;
+    --arancione-10: #FEF7DD;
+    
+    --verde-sfumato-1: #22261E;
+    --verde-sfumato-2: #2F3529;
+    --verde-sfumato-3: #3A4434;
+    --verde-sfumato-4: #46533F;
+    --verde-sfumato-5: #51634A;
+    --verde-sfumato-6: #5B7356;
+    --verde-sfumato-7: #668363;
+    --verde-sfumato-8: #709470;
+    --verde-sfumato-9: #7AA57F;
+    --verde-sfumato-10: #85B68E;
+    --verde-sfumato-11: #92C79F;
+    --verde-sfumato-12: #A0D7B2;
+    --verde-sfumato-13: #B4E6C7;
+    --verde-sfumato-14: #D0F2DE;
+    --verde-sfumato-15: #F3FCF7;
+    
+    
+    --Primary1: #1BC178;
+    --Primary2: #2AC85E;
+    --Primary3: #4BCC34;
+    --Primary4: #7BCB23;
+    --Primary5: #9BC91A;
+    --Primary6: #B4C817;
+    --Primary7: #C9C718;
+    --Primary8: #DCC61D;
+    --Primary9: #EDC529;
+    --Primary10: #FAC546;
+    --Primary11: #FDC877;
+    --Primary12: #FECD97;
+    --Primary13: #FED2AF;
+    --Primary14: #FED8C1;
+    --Primary15: #FEDED0;
+    
+    --green-primary-1: #18C37C;
+    --green-primary-2: #1CCB7F;
+    --green-primary-3: #1DD585;
+    --green-primary-4: #1EE08C;
+    --green-primary-5: #21EA92;
+    --green-primary-6: #25F499;
+    --green-primary-7: #3CFEA3;
+    --green-primary-8: #86FFBA;
+    --green-primary-9: #B4FFD1;
+    --green-primary-10: #D8FFE6;
+    
+    --marrone-1: #442718;
+    --marrone-2: #5D3521;
+    --marrone-3: #794429;
+    --marrone-4: #965331;
+    --marrone-5: #B36239;
+    --marrone-6: #D17243;
+    --marrone-7: #E98757;
+    --marrone-8: #F6A27B;
+    --marrone-9: #FCC0A5;
+    --marrone-10: #FEDED0;
+    
+    --marroncino-1: #926C48;
+    --marroncino-2: #9D7955;
+    --marroncino-3: #A88863;
+    --marroncino-4: #B39674;
+    --marroncino-5: #BCA585;
+    --marroncino-6: #C6B399;
+    --marroncino-7: #CFC2AD;
+    --marroncino-8: #D9D1C2;
+    --marroncino-9: #E4DFD6;
+    --marroncino-10: #EFEEEA;
+    
+    --beige-1: #CDBE8A;
+    --beige-2: #CFC495;
+    --beige-3: #D2CAA0;
+    --beige-4: #D4D0AC;
+    --beige-5: #D8D5B7;
+    --beige-6: #DBDAC2;
+    --beige-7: #DFE0CD;
+    --beige-8: #E4E5D7;
+    --beige-9: #E8EAE0;
+    --beige-10: #EEEFE9;
+    
+    --giallo-1: #F2CF57;
+    --giallo-2: #F0D56C;
+    --giallo-3: #EEDA80;
+    --giallo-4: #EDDF93;
+    --giallo-5: #ECE3A4;
+    --giallo-6: #ECE7B5;
+    --giallo-7: #EDEBC4;
+    --giallo-8: #EEEED1;
+    --giallo-9: #F1F2DD;
+    --giallo-10: #F4F5E8; 
+    */
+
     /* Scala di grigio */
     --grey-1: #000000;
     --grey-2: #0D0E0B;
@@ -17,128 +140,6 @@
     --grey-13: #D4D7D0;
     --grey-14: #EBECE9;
     --grey-15: #FFFFFF;
-
-    /* --verde-acqua1: #1F4643;
-    --verde-acqua2: #2A5A56;
-    --verde-acqua3: #366E6A;
-    --verde-acqua4: #42837D;
-    --verde-acqua5: #509892;
-    --verde-acqua6: #60ADA6;
-    --verde-acqua7: #73C2BB;
-    --verde-acqua8: #8BD7CF;
-    --verde-acqua9: #AFE9E3;
-    --verde-acqua10: #E0F6F4;
-
-    --rosso-1: #6C1213;
-    --rosso-2: #89181B;
-    --rosso-3: #A71C23;
-    --rosso-4: #C6212C;
-    --rosso-5: #E42836;
-    --rosso-6: #F9454B;
-    --rosso-7: #FD706E;
-    --rosso-8: #FE938F;
-    --rosso-9: #FFB3AF;
-    --rosso-10: #FFD0CD;
-
-    --arancione-1: #F18133;
-    --arancione-2: #F58F3B;
-    --arancione-3: #F89D49;
-    --arancione-4: #FAAB58;
-    --arancione-5: #FCB968;
-    --arancione-6: #FDC67A;
-    --arancione-7: #FED38E;
-    --arancione-8: #FEE0A5;
-    --arancione-9: #FEECBE;
-    --arancione-10: #FEF7DD;
-
-    --verde-sfumato-1: #22261E;
-    --verde-sfumato-2: #2F3529;
-    --verde-sfumato-3: #3A4434;
-    --verde-sfumato-4: #46533F;
-    --verde-sfumato-5: #51634A;
-    --verde-sfumato-6: #5B7356;
-    --verde-sfumato-7: #668363;
-    --verde-sfumato-8: #709470;
-    --verde-sfumato-9: #7AA57F;
-    --verde-sfumato-10: #85B68E;
-    --verde-sfumato-11: #92C79F;
-    --verde-sfumato-12: #A0D7B2;
-    --verde-sfumato-13: #B4E6C7;
-    --verde-sfumato-14: #D0F2DE;
-    --verde-sfumato-15: #F3FCF7;
-
-
-    --Primary1: #1BC178;
-    --Primary2: #2AC85E;
-    --Primary3: #4BCC34;
-    --Primary4: #7BCB23;
-    --Primary5: #9BC91A;
-    --Primary6: #B4C817;
-    --Primary7: #C9C718;
-    --Primary8: #DCC61D;
-    --Primary9: #EDC529;
-    --Primary10: #FAC546;
-    --Primary11: #FDC877;
-    --Primary12: #FECD97;
-    --Primary13: #FED2AF;
-    --Primary14: #FED8C1;
-    --Primary15: #FEDED0;
-
-    --green-primary-1: #18C37C;
-    --green-primary-2: #1CCB7F;
-    --green-primary-3: #1DD585;
-    --green-primary-4: #1EE08C;
-    --green-primary-5: #21EA92;
-    --green-primary-6: #25F499;
-    --green-primary-7: #3CFEA3;
-    --green-primary-8: #86FFBA;
-    --green-primary-9: #B4FFD1;
-    --green-primary-10: #D8FFE6;
-
-    --marrone-1: #442718;
-    --marrone-2: #5D3521;
-    --marrone-3: #794429;
-    --marrone-4: #965331;
-    --marrone-5: #B36239;
-    --marrone-6: #D17243;
-    --marrone-7: #E98757;
-    --marrone-8: #F6A27B;
-    --marrone-9: #FCC0A5;
-    --marrone-10: #FEDED0;
-
-    --marroncino-1: #926C48;
-    --marroncino-2: #9D7955;
-    --marroncino-3: #A88863;
-    --marroncino-4: #B39674;
-    --marroncino-5: #BCA585;
-    --marroncino-6: #C6B399;
-    --marroncino-7: #CFC2AD;
-    --marroncino-8: #D9D1C2;
-    --marroncino-9: #E4DFD6;
-    --marroncino-10: #EFEEEA;
-
-    --beige-1: #CDBE8A;
-    --beige-2: #CFC495;
-    --beige-3: #D2CAA0;
-    --beige-4: #D4D0AC;
-    --beige-5: #D8D5B7;
-    --beige-6: #DBDAC2;
-    --beige-7: #DFE0CD;
-    --beige-8: #E4E5D7;
-    --beige-9: #E8EAE0;
-    --beige-10: #EEEFE9;
-
-    --giallo-1: #F2CF57;
-    --giallo-2: #F0D56C;
-    --giallo-3: #EEDA80;
-    --giallo-4: #EDDF93;
-    --giallo-5: #ECE3A4;
-    --giallo-6: #ECE7B5;
-    --giallo-7: #EDEBC4;
-    --giallo-8: #EEEED1;
-    --giallo-9: #F1F2DD;
-    --giallo-10: #F4F5E8; 
-    */
 }
 
 * {
@@ -148,13 +149,73 @@
 }
 
 html {
-/* effetto per il click su elementi a che riportano alle section */
-  scroll-behavior: smooth;
+    /* effetto per il click su elementi a che riportano alle section */
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Bricolage Grotesque', sans-serif;
     min-height: 100dvh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: clamp(100px, 10vw, 150px);
+}
+
+.logo-circle {
+    height: clamp(50px, 10vw, 80px);
+    width: clamp(50px, 10vw, 80px);
+    margin-left: clamp(50px, 15vw, 150px);
+    border-radius: 50%;
+    background-color: var(--grey-13);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    margin-right: clamp(50px, 15vw, 150px);
+    padding: 10px 15px 10px 15px;
+    border: 2px solid var(--grey-11);
+    border-radius: 15px;
+    background-color: var(--grey-14);
+    cursor: pointer;
+}
+
+.lines {
+    display: block;
+}
+
+.X {
+    display: none;
+}
+
+
+#menu-toggle:checked ~ .menu-icon .lines {
+    display: none;
+}
+#menu-toggle:checked ~ .menu-icon .X {
+    display: block;
+}
+#menu-toggle:checked ~ .menu {
+    display: block;
+}
+
+
+.menu {
+    position: absolute;
+    top: clamp(100px, 10vw, 150px);
+    display: none;
 }
 
 
@@ -172,7 +233,7 @@ body {
     .logo-circle {
         height: 50px;
         width: 50px;
-        margin-left: clamp(20px, 15vw , 66px);
+        margin-left: clamp(20px, 15vw, 66px);
         border-radius: 50%;
         background-color: var(--grey-13);
     }
@@ -183,26 +244,19 @@ body {
     }
 
     /* modifica l'overlay del menu a tendina laterale */
-    /* crea l'alternanza: checkbox checked -> display: block; checkbox unchecked -> display: none; */
     #menu-toggle {
         display: none;
     }
+
     .menu-icon {
-        margin-right: clamp(20px, 15vw , 66px);
+        margin-right: clamp(20px, 15vw, 66px);
     }
+
     .menu {
         display: none;
     }
-    
+
 }
 
 /*      IPAD        */
-@media (max-width: 1200px) {
-
-}
-
-/* PC (monitor: >2000px */
-@media(max-width: 2000px) {
-
-}
-
+@media (max-width: 1200px) {}
