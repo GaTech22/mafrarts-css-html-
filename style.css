@@ -142,21 +142,14 @@
     --grey-15: #FFFFFF;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
+html, body {
     /* effetto per il click su elementi a che riportano alle section */
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
-}
-
-body {
     font-family: 'Bricolage Grotesque', sans-serif;
-    min-height: 100dvh;
+    /* min-height: 100dvh; */
 }
 
 .navbar {
@@ -165,6 +158,7 @@ body {
     justify-content: space-between;
     width: 100%;
     height: clamp(100px, 10vw, 150px);
+    overflow-anchor: auto;
 }
 
 .logo-circle {
@@ -197,10 +191,14 @@ nav {
 
 .lines {
     display: block;
+    height: clamp(20px, 5vw, 30px);
+    width: auto;
 }
 
 .X {
     display: none;
+    height: clamp(20px, 5vw, 35px);
+    width: auto;
 }
 
 
@@ -216,7 +214,7 @@ nav {
 
 .shape1 {
     display: none;
-    position: absolute;
+    position: fixed;
     left: -28%;
     top: -90%;
     width: 150%;
@@ -246,8 +244,8 @@ nav {
 .social {
     position: absolute;
     display: flex;
-    /* top: clamp(100px, 50vw, 500px); */
-    top: 29vw;
+    top: clamp(100px, 30vw + 50px, 500px);
+    /* top: 29vw; */
     left: clamp(100px, 15vw, 150px);
     height: clamp(50px, 25vw, 100px);
     width: clamp(100px, 25vw, 300px);
@@ -266,95 +264,3 @@ nav {
 
 
 /* AGGIUSTA IL RESPONSIVE DESIGN PER IL MOBILE, IPAD E LAPTOP */
-
-
-/*      MOBILE      */
-@media (max-width: 768px) {
-    .navbar {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        height: 100px;
-        background-color: var(--grey-14);
-    }
-
-    .logo-circle {
-        height: 50px;
-        width: 50px;
-        margin-left: clamp(20px, 15vw, 66px);
-        border-radius: 50%;
-        background-color: var(--grey-13);
-    }
-
-    nav {
-        display: flex;
-        flex-direction: row;
-    }
-
-    /* modifica l'overlay del menu a tendina laterale */
-    #menu-toggle {
-        display: none;
-    }
-
-    .menu-icon {
-        margin-right: clamp(20px, 15vw, 66px);
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .shape1 {
-        display: none;
-        position: absolute;
-        left: -173%;
-        top: -115%;
-        width: 200%;
-        height: 200%;
-        background-color: var(--grey-8);
-        clip-path: shape(from 0% 0%, line to 100% 0%, line to 159% 80%, curve to 0% 80% with 50% 120%);
-        rotate: -58deg;
-        z-index: 0;
-    }
-    .menu {
-        position: absolute;
-        left: clamp(10px, 30vw, 80px);
-        top: clamp(20px, 30vw, 132px);
-        display: none;
-        list-style: none;
-        z-index: 10;
-    }
-    
-    .menu li {
-        margin: 0 0 clamp(10px, 10vw, 30px) 0;
-    }
-    
-    .menu li a {
-        text-decoration: none;
-        color: var(--grey-11);
-        font-size: clamp(5px, 10vw, 22px);
-    }
-
-    .social {
-        position: absolute;
-        display: flex;
-        top: clamp(50px, 100vw, 350px);
-        left: clamp(10px, 20vw, 60px);
-        height: 100px;
-        width: 300px;
-    }
-    .social .facebook, .social .instagram, .social .whatsapp {
-        display: none;
-        height: clamp(50px, 5vw, 70px);
-        width: clamp(50px, 5vw, 70px);
-        background-color: var(--grey-13);
-        border-radius: 50%;
-        margin: 20px 0 0 20px;
-    }
-}
-
-/*      IPAD        */
-@media (max-width: 1200px) {}
-/*      LAPTOP        */
-@media (max-width: 1600px) {}
