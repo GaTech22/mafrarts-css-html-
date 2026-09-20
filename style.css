@@ -212,6 +212,15 @@ nav {
     display: block;
 }
 
+.hero {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    rotate: 180deg;
+}
 .shape1 {
     display: none;
     position: fixed;
